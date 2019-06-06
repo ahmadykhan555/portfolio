@@ -1,0 +1,44 @@
+.project-card {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    background: lightblue;
+    border: 2px solid #f5f5f5;
+}
+
+.project-card:hover {
+    background: lightgray;
+}
+
+.background > img {
+    height: inherit;
+    width: inherit;
+}
+
+.background:hover {
+    opacity: 0;
+}
+
+.project-card__detail {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.project-card__detail:hover{
+    opacity: 1;
+}
+
+.project-card__detail > div {
+    margin: auto;
+}
+.separator {
+    flex: 1;
+}
+
+.projects-gallery > .col {
+    flex: 1;
+}

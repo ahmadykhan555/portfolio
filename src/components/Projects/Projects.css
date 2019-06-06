@@ -1,0 +1,29 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    background: #f5f5f5;
+    width: 100%;
+    height: fit-content;
+    padding: 50px 30px 30px;
+}
+
+.page-title {
+    text-align: center;
+}
+.project-type-filter {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.filter-item {
+    min-width: 30px;
+    padding: 10px;
+}
+.filter-item.selected {
+    background: #E31A6D;
+}
+
+.projects-gallery {
+    flex: 1;
+    display: flex;
+}

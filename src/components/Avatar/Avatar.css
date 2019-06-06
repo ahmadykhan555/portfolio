@@ -1,0 +1,23 @@
+.avatar {
+    border-radius: 50%;
+    background: lightblue;
+}
+
+.avatar > img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.avatar.small {
+    height: 100px;
+    width: 100px;
+}
+.avatar.medium {
+    height: 300px;
+    width: 300px;
+}
+.avatar.large {
+    height: 500px;
+    width: 500px;
+}

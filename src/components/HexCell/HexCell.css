@@ -1,0 +1,26 @@
+.hex-cell {
+    height: 100px;
+    width: 100px;
+    background: #04C2C9;
+    position: relative;
+    /* border-radius: 50%; */
+}
+
+.hex-cell::before, .hex-cell::after {
+    content: '';
+    position: absolute;
+    /* top: 50%; */
+    height: inherit;
+    width: inherit;
+    background: #04C2C9;
+    /* left: 50%; */
+    left: 0;
+
+}
+
+.hex-cell::before {
+    transform: rotateX(45deg);
+}
+.hex-cell::after {
+    transform: rotateZ(-45deg);
+}

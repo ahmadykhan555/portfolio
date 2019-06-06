@@ -1,0 +1,63 @@
+.about {
+    height: 100%;
+    width: 100%;
+    min-height: fit-content;
+    flex-direction: column;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.perks > .perks-card {
+    flex: 1;
+}
+
+.title {
+    font-size: 2.5em;
+    position: relative;
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.perks {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-container .avatar {
+    margin: auto;
+}
+
+.skils-list, .skill-item {
+    margin-top: 10px;
+}
+
+.avatar-text {
+    text-align: center;
+    margin-top: 15px;
+}
+.perks > .col {
+    flex: 1;
+}
+
+.title::after{
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    content: '';
+    position: absolute;
+    background: black;
+    height: 4px;
+    width: 50%;
+}

@@ -1,0 +1,5 @@
+.portfolio {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: inherit;
+}

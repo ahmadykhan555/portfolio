@@ -1,0 +1,45 @@
+.welcome {
+    background: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-content {
+    padding: 20px;
+    color: white;
+    margin: auto;
+}
+
+.developer-name {
+    color: #E31B6D;
+}
+.welcome-text {
+    font-size: 2.5em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.welcome-text > p {
+    margin: 10px 0;
+}
+.view-my-work {
+    padding: 15px 20px;
+    font-size: 1.3em;
+    border: 2px solid white;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.view-my-work:hover {
+    background: #04C2C9;
+}
+
+.arrow:hover {
+    transform: rotate(90deg);
+}
+
+.arrow {
+    margin-left: 10px;
+}

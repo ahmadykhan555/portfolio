@@ -1,0 +1,38 @@
+.button {
+    background: white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: 1px solid black;
+    flex: 1;
+}
+
+.button:active {
+    background: powderblue;
+}
+
+.button.fill {
+    background: lightblue;
+}
+
+.value {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: auto;
+    color: black;
+}
+
+.value.blue {
+    font-weight: bold;
+    color: #5FA7F7;
+}
+
+.value.orange {
+    font-weight: bold;
+    color: orange;
+}
+
+.value.white {
+    font-weight: bold;
+    color: white;
+}

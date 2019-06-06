@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    padding: 20px 10px;
+    background: #1B242F;
+    align-items: center;
+    border-bottom: 3px solid #04C2C9; 
+}
+
+.tab-cell {
+    padding: 0 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.tab-cell.active, .tab-cell:hover {
+    color: #E31B6D;
+}
+
+.tab-cell:hover {
+    cursor: pointer;
+}

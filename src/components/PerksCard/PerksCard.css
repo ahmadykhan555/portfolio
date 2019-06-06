@@ -1,0 +1,17 @@
+.perks-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px;
+}
+
+.perks-card-title {
+    margin: 30px 0 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.short-desc {
+    text-align: center;
+    font-size: 1rem;
+}

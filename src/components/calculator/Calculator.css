@@ -1,0 +1,37 @@
+.calculator {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.screen {
+    height: 300px;
+    position: relative;
+    padding: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.output {
+    margin: auto;
+    font-size: 2.2rem;
+    flex: 1;
+}
+
+.input {
+    font-size: 1.8rem;
+    text-align: right;
+}
+
+.input-rows {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.row {
+    flex-basis: 50%;
+    display: flex;
+}
